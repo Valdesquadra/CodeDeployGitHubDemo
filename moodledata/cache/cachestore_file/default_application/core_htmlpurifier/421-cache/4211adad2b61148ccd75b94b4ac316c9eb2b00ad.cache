@@ -1,0 +1,5 @@
+s:369:"<p>The grouping sections is used to separate section by type or modules.
+<i>Example: The course has 10 sections divided into two modules: Theoretical (with 5 sections) and Practical (with 5 sections).<br />
+Define the title like "Teorical" and set the number of sections to 5.</i><br /><br />
+Tip: if you want to use the tag <strong>&lt;br&gt;</strong>, type [br].</p>
+";

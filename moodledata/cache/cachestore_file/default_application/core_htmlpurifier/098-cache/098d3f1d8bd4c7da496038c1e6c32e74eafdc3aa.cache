@@ -1,0 +1,8 @@
+s:378:"<p>When using point grading, the following methods are available for calculating the final grade:</p>
+
+<ul><li>Highest grade of all attempts</li>
+<li>Average (mean) grade of all attempts</li>
+<li>First attempt (all other attempts are ignored)</li>
+<li>Last attempt (all other attempts are ignored)</li>
+<li>Don't use attempts for grading (disable grading calculation)</li>
+</ul>";

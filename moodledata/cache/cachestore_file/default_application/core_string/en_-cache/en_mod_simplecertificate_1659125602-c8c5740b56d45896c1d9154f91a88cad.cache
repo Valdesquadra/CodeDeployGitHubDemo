@@ -1,0 +1,64 @@
+a:145:{s:10:"modulename";s:18:"Simple Certificate";s:16:"modulenameplural";s:19:"Simple Certificates";s:10:"pluginname";s:18:"Simple Certificate";s:20:"viewcertificateviews";s:29:"View {$a} issued certificates";s:17:"summaryofattempts";s:43:"Summary of Previously Received Certificates";s:6:"issued";s:6:"Issued";s:11:"coursegrade";s:12:"Course Grade";s:14:"getcertificate";s:15:"Get Certificate";s:9:"awardedto";s:10:"Awarded To";s:12:"receiveddate";s:11:"Issued Date";s:5:"grade";s:5:"Grade";s:4:"code";s:4:"Code";s:6:"report";s:6:"Report";s:12:"opendownload";s:65:"Click the button below to save your certificate to your computer.";s:9:"openemail";s:87:"Click the button below and your certificate will be sent to you as an email attachment.";s:10:"openwindow";s:72:"Click the button below to open your certificate in a new browser window.";s:5:"hours";s:5:"hours";s:8:"keywords";s:32:"certificate, course, pdf, moodle";s:20:"pluginadministration";s:26:"Certificate administration";s:23:"deletissuedcertificates";s:26:"Delete issued certificates";s:20:"nocertificatesissued";s:47:"There are no certificates that have been issued";s:15:"certificatename";s:16:"Certificate Name";s:16:"certificateimage";s:22:"Certificate Image File";s:15:"certificatetext";s:16:"Certificate Text";s:16:"certificatetextx";s:36:"Certificate Text Horizontal Position";s:16:"certificatetexty";s:34:"Certificate Text Vertical Position";s:6:"height";s:18:"Certificate Height";s:5:"width";s:17:"Certificate Width";s:10:"coursename";s:23:"Alternative Course Name";s:5:"intro";s:12:"Introduction";s:12:"printoutcome";s:13:"Print Outcome";s:9:"printdate";s:10:"Print Date";s:17:"secondpageoptions";s:21:"Certificate Back page";s:16:"enablesecondpage";s:28:"Enable Certificate Back page";s:21:"enablesecondpage_help";s:135:"Enable Certificate Back page edition, if is disabled, only certificate QR code will be printed in back page (if the QR code is enabled)";s:11:"secondimage";s:27:"Certificate Back Image file";s:16:"secondimage_help";s:64:"This is the picture that will be used in the back of certificate";s:14:"secondpagetext";s:21:"Certificate Back Text";s:11:"secondpagex";s:41:"Certificate Back Text Horizontal Position";s:11:"secondpagey";s:39:"Certificate Back Text Vertical Position";s:18:"secondtextposition";s:30:"Certificate Back Text Position";s:23:"secondtextposition_help";s:79:"These are the XY coordinates (in millimeters) of the certificate back page text";s:11:"printqrcode";s:25:"Print Certificate QR Code";s:16:"printqrcode_help";s:34:"Print (or not) certificate QR Code";s:5:"codex";s:39:"Certificate QR Code Horizontal Position";s:5:"codey";s:37:"Certificate QR Code Vertical Position";s:14:"qrcodeposition";s:28:"Certificate QR Code Position";s:19:"qrcodeposition_help";s:72:"These are the XY coordinates (in millimeters) of the certificate QR Code";s:12:"defaultcodex";s:35:"Default Horizontal QR code Position";s:12:"defaultcodey";s:33:"Default Vertical QR code Position";s:10:"issueddate";s:11:"Date Issued";s:14:"completiondate";s:17:"Course Completion";s:15:"coursestartdate";s:17:"Course Start Date";s:7:"datefmt";s:11:"Date Format";s:14:"userdateformat";s:27:"User's Language Date Format";s:10:"printgrade";s:11:"Print Grade";s:8:"gradefmt";s:12:"Grade Format";s:11:"gradeletter";s:12:"Letter Grade";s:12:"gradepercent";s:16:"Percentage Grade";s:11:"gradepoints";s:12:"Points Grade";s:13:"coursetimereq";s:26:"Required minutes in course";s:13:"emailteachers";s:14:"Email Teachers";s:11:"emailothers";s:12:"Email Others";s:9:"emailfrom";s:15:"Email From name";s:8:"delivery";s:8:"Delivery";s:11:"openbrowser";s:18:"Open in new window";s:8:"download";s:14:"Force download";s:16:"emailcertificate";s:5:"Email";s:12:"nodelivering";s:67:"No delivering, user will receive this certificate using others ways";s:17:"emailoncompletion";s:26:"Email on course completion";s:20:"certificatename_help";s:16:"Certificate Name";s:20:"certificatetext_help";s:1679:"This is the text that will be used in the certificate back, some special words will be replaced with variables such as course name, student's name, grade ...
+These are:
+<ul>
+<li>{USERNAME} -> Full user name</li>
+<li>{COURSENAME} -> Full course name (or a defined alternate course name)</li>
+<li>{GRADE} -> Formatted Grade</li>
+<li>{DATE} -> Formatted Date</li>
+<li>{OUTCOME} -> Outcomes</li>
+<li>{TEACHERS} -> Teachers List</li>
+<li>{IDNUMBER} -> User id number</li>
+<li>{FIRSTNAME} -> User first name</li>
+<li>{LASTNAME} -> User last name</li>
+<li>{EMAIL} -> User e-mail</li>
+<li>{ICQ} -> User ICQ</li>
+<li>{SKYPE} -> User Skype</li>
+<li>{YAHOO} -> User yahoo messenger</li>
+<li>{AIM} -> User AIM</li>
+<li>{MSN} -> User MSN</li>
+<li>{PHONE1} -> User 1° Phone Number</li>
+<li>{PHONE2} -> User 2° Phone Number</li>
+<li>{INSTITUTION} -> User institution</li>
+<li>{DEPARTMENT} -> User department</li>
+<li>{ADDRESS} -> User address</li>
+<li>{CITY} -> User city</li>
+<li>{COUNTRY} -> User country</li>
+<li>{URL} -> User Home-page</li>
+<li>{CERTIFICATECODE} -> Unique certificate code text</li>
+<li>{USERROLENAME} -> User role name in course</li>
+<li>{TIMESTART} -> User Enrollment start date in course</li>
+<li>{USERIMAGE} -> User profile image</li>
+<li>{USERRESULTS} -> User results (grade) in others course activities</li>
+<li>{PROFILE_xxxx} -> User custom profile fields</li>
+</ul>
+In order to use custom profiles fields you must use "PORFILE_" prefix, for example: you has created a custom profile with shortname of "birthday," so the text mark used on certificate must be {PROFILE_BIRTHDAY}.
+The text can use basic html, basic fonts, tables,  but avoid any position definition.";s:12:"textposition";s:25:"Certificate Text Position";s:17:"textposition_help";s:69:"These are the XY coordinates (in millimetres) of the certificate text";s:4:"size";s:16:"Certificate Size";s:9:"size_help";s:101:"These are the Width and Height size (in millimetres) of the certificate, Default size is A4 Landscape";s:15:"coursename_help";s:23:"Alternative Course Name";s:21:"certificateimage_help";s:56:"This is the picture that will be used in the certificate";s:17:"printoutcome_help";s:172:"You can choose any course outcome to print the name of the outcome and the user's received outcome on the certificate.  An example might be: Assignment Outcome: Proficient.";s:14:"printdate_help";s:360:"This is the date that will be printed, if a print date is selected. If the course completion date is selected but the student has not completed the course, the date received will be printed. You can also choose to print the date based on when an activity was graded. If a certificate is issued before that activity is graded, the date received will be printed.";s:12:"datefmt_help";s:187:"Enter a valid PHP date format pattern (<a href="http://www.php.net/manual/en/function.strftime.php"> Date Formats</a>). Or, leave it empty to use the format of the user's chosen language.";s:15:"printgrade_help";s:253:"You can choose any available course grade items from the gradebook to print the user's grade received for that item on the certificate.  The grade items are listed in the order in which they appear in the gradebook. Choose the format of the grade below.";s:13:"gradefmt_help";s:280:"There are three available formats if you choose to print a grade on the certificate:
+<ul>
+<li>Percentage Grade: Prints the grade as a percentage.</li>
+<li>Points Grade: Prints the point value of the grade.</li>
+<li>Letter Grade: Prints the percentage grade as a letter.</li>
+</ul>";s:18:"coursetimereq_help";s:149:"Enter here the minimum amount of time, in minutes, that a student must be logged into the course before they will be able to receive the certificate.";s:18:"emailteachers_help";s:92:"If enabled, then teachers are alerted with an email whenever students receive a certificate.";s:16:"emailothers_help";s:139:"Enter the email addresses here, separated by a comma, of those who should be alerted with an email whenever students receive a certificate.";s:14:"emailfrom_help";s:25:"Alternate email form name";s:13:"delivery_help";s:553:"Choose here how you would like your students to get their certificate.
+<ul>
+<li>Open in Browser: Opens the certificate in a new browser window.</li>
+<li>Force Download: Opens the browser file download window.</li>
+<li>Email Certificate: Choosing this option sends the certificate to the student as an email attachment.</li>
+<li>After a user receives their certificate, if they click on the certificate link from the course homepage, they will see the date they received their certificate and will be able to review their received certificate.</li>
+</ul>";s:12:"issueoptions";s:13:"Issue Options";s:13:"designoptions";s:14:"Design Options";s:19:"emailstudentsubject";s:33:"Your certificate for {$a->course}";s:16:"emailstudenttext";s:125:"
+Hello {$a->username},
+
+		Attached is your certificate for {$a->course}.
+
+
+THIS IS AN AUTOMATED MESSAGE - PLEASE DO NOT REPLY";s:16:"emailteachermail";s:124:"
+{$a->student} has received their certificate: '{$a->certificate}'
+for {$a->course}.
+
+You can review it here:
+
+    {$a->url}";s:20:"emailteachermailhtml";s:165:"
+{$a->student} has received their certificate: '<i>{$a->certificate}</i>'
+for {$a->course}.
+
+You can review it here:
+
+    <a href="{$a->url}">Certificate Report</a>.";s:12:"defaultwidth";s:13:"Default Width";s:13:"defaultheight";s:14:"Default Height";s:23:"defaultcertificatetextx";s:32:"Default Horizontal Text Position";s:23:"defaultcertificatetexty";s:30:"Default Vertical Text Position";s:12:"filenotfound";s:14:"File not Found";s:11:"invalidcode";s:24:"Invalid certificate code";s:15:"cantdeleteissue";s:34:"Error removing issued certificates";s:18:"requiredtimenotmet";s:90:"You must have at least {$a->requiredtime} minutes in this course to issue this certificate";s:23:"certificateverification";s:24:"Certificate Verification";s:12:"certlifetime";s:41:"Keep issued certificates for: (in Months)";s:17:"certlifetime_help";s:147:"This specifies the length of time you want to keep issued certificates. Issued certificates that are older than this age are automatically deleted.";s:17:"neverdeleteoption";s:12:"Never delete";s:16:"variablesoptions";s:14:"Others Options";s:17:"verifycertificate";s:18:"Verify Certificate";s:15:"qrcodefirstpage";s:31:"Print QR Code in the first page";s:20:"qrcodefirstpage_help";s:31:"Print QR Code in the first page";s:12:"standardview";s:24:"Issue a test certificate";s:10:"issuedview";s:19:"Issued certificates";s:8:"bulkview";s:15:"Bulk operations";s:9:"cantissue";s:80:"The certificate can't be issued, because the user hasn't met activity conditions";s:6:"onepdf";s:39:"Download certificates in a one pdf file";s:8:"multipdf";s:35:"Download certificates in a zip file";s:11:"sendtoemail";s:20:"Send to user's email";s:9:"showusers";s:4:"Show";s:14:"completedusers";s:38:"Users that met the activity conditions";s:8:"allusers";s:9:"All users";s:10:"bulkaction";s:23:"Choose a Bulk Operation";s:15:"bulkbuttonlabel";s:4:"Send";s:9:"emailsent";s:25:"The emails have been sent";s:14:"issueddownload";s:40:"Issued certificate [id: {$a}] downloaded";s:14:"defaultperpage";s:8:"Per page";s:19:"defaultperpage_help";s:49:"Number of certificate to show per page (Max. 200)";s:29:"simplecertificate:addinstance";s:31:"Add Simple Certificate Activity";s:24:"simplecertificate:manage";s:34:"Manage Simple Certificate Activity";s:22:"simplecertificate:view";s:32:"View Simple Certificate Activity";s:19:"usercontextnotfound";s:22:"User context not found";s:12:"usernotfound";s:14:"User not found";s:14:"coursenotfound";s:16:"Course not found";s:25:"issuedcertificatenotfound";s:28:"Issued certificate not found";s:14:"awardedsubject";s:75:"Awarded certificate notification: {$a->certificate} issued to {$a->student}";s:14:"certificatenot";s:37:"Simple certificate instance not found";s:15:"modulename_help";s:183:"The simple certificate activity module enables the teacher to create a custom certificate that can be issued to participants who have completed the teacher’s specified requirements.";s:16:"timestartdatefmt";s:28:"Enrollment start date format";s:21:"timestartdatefmt_help";s:187:"Enter a valid PHP date format pattern (<a href="http://www.php.net/manual/en/function.strftime.php"> Date Formats</a>). Or, leave it empty to use the format of the user's chosen language.";s:15:"certificatecopy";s:4:"COPY";s:12:"upgradeerror";s:24:"Error while upgrading $a";s:11:"notreceived";s:21:"No issued certificate";s:25:"eventcertificate_verified";s:20:"Certificate verified";s:37:"eventcertificate_verified_description";s:132:"The user with id {$a->userid} verified the certificate with id {$a->certificateid}, issued to user with id {$a->certiticate_userid}.";s:9:"deleteall";s:10:"Delete All";s:14:"deleteselected";s:15:"Delete Selected";}

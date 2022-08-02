@@ -1,0 +1,11 @@
+s:904:"<p>The launch container affects the display of the tool when launched from the course. Some launch containers provide more screen
+real estate to the tool, and others provide a more integrated feel with the Moodle environment.</p>
+
+<ul><li><strong>Default</strong> - Use the launch container specified by the tool configuration.</li>
+<li><strong>Embed</strong> - The tool is displayed within the existing Moodle window, in a manner similar to most other Activity types.</li>
+<li><strong>Embed, without blocks</strong> - The tool is displayed within the existing Moodle window, with just the navigation controls
+    at the top of the page.</li>
+<li><strong>New window</strong> - The tool opens in a new window, occupying all the available space.
+    Depending on the browser, it will open in a new tab or a popup window.
+    It is possible that browsers will prevent the new window from opening.</li>
+</ul>";

@@ -1,0 +1,176 @@
+
+
+#main-navigation {
+
+	margin-right: auto;
+
+	.main-menu {
+
+		> li {
+
+			> a,
+			> span {
+				padding: .6rem 1.1rem .6rem 0;
+			}
+
+			@media only screen and (max-width: $wdlargedevice){
+				> a,
+				> span {
+					padding-right: .8rem;
+				}
+
+				&.dropdown {
+					> a,
+					> span {
+						&:after {
+							display: none;
+						}
+					}
+				}
+			}
+
+			> ul {
+				left: -1rem;
+			}
+
+			/* Next levels */
+
+			ul {
+				@include mb2_border_radius(.15rem);
+
+				> li:first-child {
+					> a,
+					> span {
+						@include mb2_border_radius(.15rem .15rem 0 0);
+					}
+				}
+
+				> li:last-child {
+					> a,
+					> span {
+						@include mb2_border_radius(0 0 .15rem .15rem);
+					}
+				}
+			}
+		}
+
+		/* Home icon */
+
+		.home-item {
+			> a {
+
+				i {
+					top: 0;
+				}
+			}
+		}
+
+	}
+
+
+	.navanim1 & {
+		.main-menu {
+
+			> li {
+
+				> ul {
+
+					&:before,
+					&:after {
+						content: '';
+						display: block;
+						position: absolute;
+						border: solid 9px transparent;
+					}
+
+					&:after {
+						border-bottom-color: lighten($color_gray3, 4%);
+						top: -18px;
+						left: 18px;
+					}
+
+				}
+
+				ul {
+					background-color: lighten($color_gray3, 4%);
+				}
+			}
+		}
+	}
+
+
+	/* Navigation in sticky header */
+
+	.sticky-el & {
+
+		.main-menu {
+
+			> li {
+
+				> a,
+				> span {
+					color: #000;
+				}
+
+				> ul {
+					&:before {
+						border-bottom-color: lighten( $color_gray2, 2% );
+					}
+				}
+
+				ul {
+					background-color: lighten( $color_gray2, 2% );
+				}
+			}
+
+		}
+
+	}
+
+}
+
+
+/* Page header */
+
+#page-header {
+	.flexcols {
+		min-height: 50px;
+	}
+}
+
+
+
+/* Header tools */
+
+@media only screen and (min-width: $wmediumdevice+1){
+
+	.header-tools {
+
+		&.tools-pos2 {
+			.header-tools-link,
+			.popover-region-toggle {
+				i {
+					color: #000;
+				}
+			}
+
+			&.type-icon {
+				.header-tools-link,
+				.popover-region-toggle {
+					i {
+						color: rgba(0,0,0,.3);
+					}
+				}
+
+				.tool-login {
+					i {
+						position: relative;
+						top: 1px;
+					}
+				}
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,86 @@
+
+
+/* Remove bootstrap card style */
+
+.mb2-accordion {
+
+	.card-header {
+		background-color: transparent;
+		border: 0;
+		padding: 0;
+	}
+
+	.card {
+		margin-bottom: .5rem;
+		background-color: transparent;
+	}
+
+	.card-body {
+		border: 0;
+		padding: 1.3rem 0;
+		background-color: transparent;
+	}
+
+	margin-bottom: 1.3rem;
+
+	.panel-title {
+		margin: 0;
+	}
+
+	.accorion-item {
+		margin-bottom: .8rem;
+	}
+
+	@include mb2_collabsible_item();
+
+	&.theme-enrol {
+
+		[data-toggle="collapse"] {
+			border: 0;
+			padding: .85rem 1rem !important;
+			font-weight: $fwmedium;
+			background-color: darken( $color_gray2, 3% );
+			color: $textcolor;
+
+			&:hover,
+			&:focus {
+				background-color: darken( $color_gray2, 3% );
+			}
+
+			&:before {
+				@include mb2_font_fa();
+				position: relative;
+				display: inline-block !important;
+				background-color: transparent;
+				content: '\f106';
+				width: auto;
+				height: auto;
+				line-height: inherit !important;
+				right: 0;
+				top: 0;
+				margin-right: .65rem;
+				font-size: 1.2rem;
+				color: inherit;
+			}
+
+
+			&[aria-expanded="false"] {
+				background-color: $color_gray2;
+
+				&:before {
+					content: '\f107';
+					color: inherit;
+				}
+			}
+		}
+	}
+}
+
+
+.card-header {
+	.mb2-accordion.isicon0 & {
+		i {
+			display: none;
+		}
+	}
+}

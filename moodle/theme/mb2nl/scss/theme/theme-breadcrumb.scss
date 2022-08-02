@@ -1,0 +1,57 @@
+
+.breadcrumb {
+
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-bottom: 0;
+	font-size: $fssmall;
+	color: $textcolor;
+	line-height: 1;
+
+	a {
+		color: $textcolor;
+	}
+
+	a:hover,
+	a:focus {
+		color: inherit;
+	}
+
+	.arrow.sep {
+		color: $textcolor;
+		font-size: $fsxsmall * .75;
+		margin: 0 3px 0 6px;
+	}
+
+	ul,
+	ol {
+
+		li {
+			+ {
+				li {
+					&:before {
+						color: $textcolor !important;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+@media only screen and (max-width: $wmediumdevice){
+	.breadcrumb {
+		line-height: 1;
+		text-align: center;
+
+		#page-header & {
+			display: none;
+		}
+
+		#page-site-index &.bottom {
+			display: none;
+		}
+	}
+}

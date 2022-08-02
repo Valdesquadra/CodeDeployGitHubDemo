@@ -1,0 +1,51 @@
+
+.header-inner2 {
+	border-top: solid 3px $accent1;
+}
+
+.top-bar {
+	background-color: $accent1;
+	color: #fff;
+
+	a {
+		color: inherit;
+	}
+
+	.social-list {
+		a {
+			background-color: rgba(0,0,0,.2);
+		}
+	}
+}
+
+
+@media only screen and (min-width: $wmediumdevice){
+
+	#master-header {
+
+        &.sticky-el {
+
+			.master-header-inner {
+				border-top: solid 3px $accent1;
+			}
+
+        }
+
+    }
+
+}
+
+
+#main-navigation {
+
+	.main-menu {
+
+		> li {
+
+			> a,
+			> span {
+				color: #000;
+			}
+        }
+    }
+}

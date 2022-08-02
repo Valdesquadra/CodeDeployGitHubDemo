@@ -1,0 +1,11 @@
+s:939:"<p>O módulo de arquivo permite que um professor forneça um arquivo como um recurso do curso. Sempre que possível, o arquivo será exibido na interface do curso, caso contrário, os estudantes serão levados a fazer o download. O arquivo pode incluir arquivos auxiliares, por exemplo uma página HTML pode ter imagens incorporadas.</p>
+
+<p>Note-se que os estudantes precisam ter o software adequado em seus computadores para abrir o arquivo.</p>
+
+<p>Um arquivo pode ser usado</p>
+
+<ul><li>Para compartilhar apresentações em aula</li>
+<li>Para incluir um mini website como um recurso do curso</li>
+<li>Para fornecer arquivos de rascunho de programas de software para que os estudantes podem editá-los e enviá-los para a avaliação</li>
+</ul><div class="helpdoclink"><a href="https://docs.moodle.org/311/pt_br/mod/resource/view" class="helplinkpopup"><i class="icon fa fa-info-circle fa-fw iconhelp icon-pre"></i>Mais ajuda</a></div>
+";

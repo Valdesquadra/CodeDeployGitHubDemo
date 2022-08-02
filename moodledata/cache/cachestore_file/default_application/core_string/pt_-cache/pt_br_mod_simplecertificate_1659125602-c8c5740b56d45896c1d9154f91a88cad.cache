@@ -1,0 +1,69 @@
+a:145:{s:10:"modulename";s:19:"Certificado Simples";s:16:"modulenameplural";s:20:"Certificados Simples";s:10:"pluginname";s:19:"Certificado Simples";s:20:"viewcertificateviews";s:26:"{$a} certificados emitidos";s:17:"summaryofattempts";s:32:"Resumo dos certificados emitidos";s:6:"issued";s:8:"Emitidos";s:11:"coursegrade";s:13:"Nota do curso";s:14:"getcertificate";s:19:"Obter o Certificado";s:9:"awardedto";s:11:"Obtido para";s:12:"receiveddate";s:16:"Data de Emissão";s:5:"grade";s:4:"Nota";s:4:"code";s:7:"Código";s:6:"report";s:10:"Relatório";s:12:"opendownload";s:74:"Pressione o botão abaixo para salvar o seu certificado no seu computador.";s:9:"openemail";s:68:"Pressione o botão abaixo e seu certificado será enviado por email.";s:10:"openwindow";s:76:"Pressione o botão abaixo para visualizar o seu certificado em uma nova tela";s:5:"hours";s:5:"horas";s:8:"keywords";s:31:"certificado, curso, pdf, moodle";s:20:"pluginadministration";s:30:"Administração de Certificado";s:23:"deletissuedcertificates";s:32:"Remover os certificados emitidos";s:20:"nocertificatesissued";s:26:"Nenhum certificado emitido";s:15:"certificatename";s:19:"Nome do certificado";s:16:"certificateimage";s:32:"Arquivo de Imagem do certificado";s:15:"certificatetext";s:20:"Texto do certificado";s:16:"certificatetextx";s:45:"Posição Horizontal do texto do certificado'";s:16:"certificatetexty";s:43:"Posição Vertical do texto do certificado'";s:6:"height";s:21:"Altura do certificado";s:5:"width";s:22:"Largura do certificado";s:10:"coursename";s:25:"Nome alternativo do Curso";s:5:"intro";s:12:"Introdução";s:12:"printoutcome";s:28:"Imprimir resultado (Outcome)";s:9:"printdate";s:27:"Tipo de data do certificado";s:17:"secondpageoptions";s:31:"Página de Verso do certificado";s:16:"enablesecondpage";s:29:"Ativar o verso do Certificado";s:21:"enablesecondpage_help";s:145:"Ativa a edição do verso do certificado, se estiver desativado, somente o código QR do certificado será impresso (se código QR estiver ativo)";s:11:"secondimage";s:30:"Imagem do verso do certificate";s:16:"secondimage_help";s:47:"Esta figura será usada no verso do certificado";s:14:"secondpagetext";s:29:"Texto do verso do certificado";s:11:"secondpagex";s:38:"Posição Horizontal do texto do verso";s:11:"secondpagey";s:36:"Posição Vertical do texto do verso";s:18:"secondtextposition";s:27:"Posição do texto do verso";s:23:"secondtextposition_help";s:52:"As coordenadas XY (em milímetros) do texto do verso";s:11:"printqrcode";s:33:"Imprimir o QR Code do certificado";s:16:"printqrcode_help";s:61:"Habilita ou desabilita a impressão do QR Code do certificado";s:5:"codex";s:46:"Posição Horizontal do QR Code do Certificado";s:5:"codey";s:44:"Posição Vertical do QR Code do Certificado";s:14:"qrcodeposition";s:40:"Posicionamento do QR Code do Certificado";s:19:"qrcodeposition_help";s:71:"Essas são as coordenadas XY (em milímetros) do QR Code do certificado";s:12:"defaultcodex";s:54:"Posição Horizontal padrão do QR code do certificado";s:12:"defaultcodey";s:52:"Posição Vertical padrão do QR code do certificado";s:10:"issueddate";s:16:"Data da emissão";s:14:"completiondate";s:19:"Conclusão de Curso";s:15:"coursestartdate";s:17:"Course Start Date";s:7:"datefmt";s:15:"Formato da data";s:14:"userdateformat";s:47:"Formato definido pelas definições do usuário";s:10:"printgrade";s:27:"Tipo de nota do certificado";s:8:"gradefmt";s:15:"Formato da nota";s:11:"gradeletter";s:17:"Nota por Conceito";s:12:"gradepercent";s:20:"Nota por perrcentual";s:11:"gradepoints";s:15:"Nota por pontos";s:13:"coursetimereq";s:43:"Minutos mínimos de participação no curso";s:13:"emailteachers";s:32:"Enviar email para os Professores";s:11:"emailothers";s:24:"Enviar email para outros";s:9:"emailfrom";s:38:"Nome alternativo do remetente do email";s:8:"delivery";s:5:"Envio";s:11:"openbrowser";s:29:"Visualizar em uma nova janela";s:8:"download";s:59:"Download de um único arquivo pdf com todos os certificados";s:16:"emailcertificate";s:9:"por Email";s:12:"nodelivering";s:64:"Sem envio, o usuário vai receber o certificado por outros meios";s:17:"emailoncompletion";s:26:"Email on course completion";s:20:"certificatename_help";s:19:"Nome do certificado";s:20:"certificatetext_help";s:1484:"Este é o texto que será usado no certificado, alguns marcadores especiais serão substituídos por variáveis do certificado, como o nome dos cursos, nome do estudante, notas...
+Os marcadores são:
+
+<ul>
+<li>{USERNAME} -> Nome completo do estudante</li>
+<li>{COURSENAME} -> Nome completo do curso (ou o que estiver definido em "Nome Alternativo do Curso")</li>
+<li>{GRADE} -> Nota formatada</li>
+<li>{DATE} -> Data formatada</li>
+<li>{OUTCOME} -> Resultados (Outcomes)</li>
+<li>{TEACHERS} -> Lista de professores</li>
+<li>{IDNUMBER} -> User id number</li>
+<li>{FIRSTNAME} -> Nome</li>
+<li>{LASTNAME} -> Sobrenome</li>
+<li>{EMAIL} -> E-mail</li>
+<li>{ICQ} -> ICQ</li>
+<li>{SKYPE} -> Skype</li>
+<li>{YAHOO} -> Yahoo messenger</li>
+<li>{AIM} -> AIM</li>
+<li>{MSN} -> MSN</li>
+<li>{PHONE1} -> 1° Número de telefone</li>
+<li>{PHONE2} -> 2° Número de telefone</li>
+<li>{INSTITUTION} -> Instituição</li>
+<li>{DEPARTMENT} -> Departamento</li>
+<li>{ADDRESS} -> Endereço</li>
+<li>{CITY} -> Cidade</li>
+<li>{COUNTRY} -> País</li>
+<li>{URL} -> Home-page</li>
+<li>{CERTIFICATECODE} -> Texto do código do certificado</li>
+<li>{PROFILE_xxxx} -> Campos personalizados</li>
+</ul>
+Para usar campos personalizados deve usar o prefixo "PROFILE_", por exemplo, se criar um campo com a abreviação (shortname) de aniversario, então deve-se usar o marcador
+"PROFILE_ANIVERSARIO"
+O texto pode ser um HTML básico, com fontes básicas do HTML, tabelas, mas evite utilizar o uso de posicionamento.";s:12:"textposition";s:38:"Posicionamento do Texto do Certificado";s:17:"textposition_help";s:69:"Essas são as coordenadas XY (em milímetros) do texto do certificado";s:4:"size";s:22:"Tamanho do Certificado";s:9:"size_help";s:93:"Esse é o tamanho, Largura e Altura (em milímetros) do certificado, o padrão é A4 paisagem";s:15:"coursename_help";s:553:"Nome Alternativo do curso.
+
+O nome alternativo do curso irá substituir o nome do curso no textmark {COURSENAME}, e também no nome do arquivo gerado  para download.
+Muito útil quando um curso tem um nome, mas no certificado deveria parecer outro nome. Por exemplo:
+
+Nome do curso:  "Trabalho de final de curso"
+Nome alternativo "Português Instrumental"
+
+Então, no texto de certificado, a textmark {COURSENAME} vai ser substituída por "Português Instrumental", e o nome do arquivo do certificado será portuges_instrumental-<NOME_DO_CERIFICADO>.pdf";s:21:"certificateimage_help";s:51:"Esta é a imagem que será utilizada no certificado";s:17:"printoutcome_help";s:192:"Você pode escolher qualquer resultado (outcome) definido neste curso. Será impresso o nome do resultado e o resultado recebido  pelo usuário. Um exemplo poderia ser: Resultado: Proficiente.";s:14:"printdate_help";s:303:"Esta é a data que será impressa, você pose escolher entre a data que o estudante completou o curso, ou a data de emissão do certificado.
+Também pode-se escolher a data que uma certa atividade foi corrigida, se em algum dos casos o estudante não tiver a data, então a data de emissão será usada.";s:12:"datefmt_help";s:224:"Coloque um formato de data válido aceito pelo PHP (http://www.php.net/manual/pt_BR/function.strftime.php). ou deixe-o em branco para usar o valor de formatação padrão definido pela a configuração de idioma do usuário.";s:15:"printgrade_help";s:122:"Pode-se escolher a nota que será impressa no certificado, esta pode ser a nota final do curso ou a nota em uma atividade.";s:13:"gradefmt_help";s:291:"Pode-se escolher o formato da nota que são:<br>
+<ul>
+<li>Nota por percentual: Imprime a nota como um percentual.</li>
+<li>Nota pot pontos: Imprime a nota por pontos, o valor da nota tirada.</li>
+<li>Nota por conceito: Imprime o conceito relacionado a nota obtida (A, A+, B, ...).</li>
+</ul>";s:18:"coursetimereq_help";s:115:"Coloque o tempo mínimo de participação (em minutos) que um estudante deve ter para conseguir obter o certificado";s:18:"emailteachers_help";s:100:"Quando habilitado, os professores recebem os emails toda vez que um estudante emitir um certificado.";s:16:"emailothers_help";s:83:"Digite os endereços de emails que vão receber o alerta de emissão de certificado";s:14:"emailfrom_help";s:50:"Nome a ser usado como remetente dos email enviados";s:13:"delivery_help";s:596:"Escolha como o certificado deve ser entregue aos estudantes:<br>
+<ul>
+<li>Visualizar em uma nova janela: Abre uma nova janela no navegador do estudante contendo o certificado.</li>
+<li>Forçar o download: Abre uma janela de download de arquivo para o estudante salvar em seu computador.</li>
+<li>por Email: Envia o certificado para o email do estudante, e abre o certificado em uma nova janela do navegador.</li>
+</ul><p>
+Depois que estudante emite seu certificado, se ele clicar na atividade certificado aparecerá a data de emissão do certificado e ele poderá revisar ocertificado emitido</p>";s:12:"issueoptions";s:20:"Opções de Emissão";s:13:"designoptions";s:18:"Opções de Design";s:19:"emailstudentsubject";s:37:"Seu certificado do curso {$a->course}";s:16:"emailstudenttext";s:135:"Olá {$a->username},
+
+	Segue em anexo o certificado do curso: {$a->course}.
+
+
+ESTA É UMA MENSAGEM AUTOMÁTICA, NÃO RESPONDA POR FAVOR";s:16:"emailteachermail";s:123:"{$a->student} recebeu o certificado: '{$a->certificate}' para o curso
+{$a->course}.
+
+Você pode vê-lo aqui:
+
+    {$a->url}";s:20:"emailteachermailhtml";s:164:"{$a->student} recebeu o certificado: '<i>{$a->certificate}</i>'
+para o curso {$a->course}.
+
+Você pode vê-lo aqui:
+
+    <a href="{$a->url}">Certificate Report</a>.";s:12:"defaultwidth";s:15:"Largura Padrão";s:13:"defaultheight";s:14:"Altura Padrão";s:23:"defaultcertificatetextx";s:52:"Posição Horizontal padrão do texto do certificado";s:23:"defaultcertificatetexty";s:50:"Posição Vertical padrão do texto do certificado";s:12:"filenotfound";s:23:"Arquivo não encontrado";s:11:"invalidcode";s:35:"Código do certificado é inválido";s:15:"cantdeleteissue";s:51:"Ocorreu um erro ao remover os certificados emitidos";s:18:"requiredtimenotmet";s:94:"Você precisa ter ao menos {$a->requiredtime} minutos nesse curso para emitir este certificado";s:23:"certificateverification";s:28:"Verificação do Certificado";s:12:"certlifetime";s:47:"Manter os certificados emitidos por: (em Meses)";s:17:"certlifetime_help";s:188:"Está opção especifica por quanto tempo deve ser guardado um certificado emitido. Certificados emitidos mais velhos que o tempo determinado nesta opção será automaticamente removidos.";s:17:"neverdeleteoption";s:13:"Nunca remover";s:16:"variablesoptions";s:15:"Outras Opções";s:17:"verifycertificate";s:21:"Verificar Certificado";s:15:"qrcodefirstpage";s:41:"Imprimir o código QR na primeira página";s:20:"qrcodefirstpage_help";s:40:"Imprime o código QR na primeira página";s:12:"standardview";s:30:"Emitir um certificado de teste";s:10:"issuedview";s:21:"Certificados emitidos";s:8:"bulkview";s:19:"Operações em lote";s:9:"cantissue";s:82:"O certificado não pode ser emitido pois o usuário não atingiu as metas do curso";s:6:"onepdf";s:59:"Download de um único arquivo pdf com todos os certificados";s:8:"multipdf";s:55:"Download de um arquivo zip com os pdfs dos certificados";s:11:"sendtoemail";s:47:"Enviar os certificados para o email do usuário";s:9:"showusers";s:7:"Mostrar";s:14:"completedusers";s:46:"Usuários que atingiram os objetivos definidos";s:8:"allusers";s:18:"Todos os usuários";s:10:"bulkaction";s:28:"Escolha a operação em lote";s:15:"bulkbuttonlabel";s:6:"Enviar";s:9:"emailsent";s:24:"Os emails foram enviados";s:14:"issueddownload";s:30:"Certificado [id: {$a}] baixado";s:14:"defaultperpage";s:11:"Por página";s:19:"defaultperpage_help";s:58:"Quantidade de certificados exibidos por página (Max. 200)";s:29:"simplecertificate:addinstance";s:42:"Adicionar uma atividade simple certificate";s:24:"simplecertificate:manage";s:40:"Gerenciar a atividade simple certificate";s:22:"simplecertificate:view";s:37:"Exibir a atividade simple certificate";s:19:"usercontextnotfound";s:36:"Contexto do usuário não encontrado";s:12:"usernotfound";s:24:"Usuário não encontrado";s:14:"coursenotfound";s:21:"Curso não encontrado";s:25:"issuedcertificatenotfound";s:39:"Certificado emitido não foi encontrado";s:14:"awardedsubject";s:82:"Notificação:
+Certificado concedido: {$a->certificate} emitido para {$a->student}";s:14:"certificatenot";s:38:"Simple certificate não foi encontrado";s:15:"modulename_help";s:188:"O módulo simple certificate permite ao professor criar um certificado personalizado que pode ser emitido pelos os participantes que completarem os requisitos especificados pelo professor.";s:16:"timestartdatefmt";s:29:"Formato da data de matrícula";s:21:"timestartdatefmt_help";s:217:"Digite um formato de data válido no  padrão do PHP  ( <a href="http://www.php.net/manual/en/function.strftime.php">formatos de data</a> ). Ou, deixe-o em branco para usar o formato do idioma escolhido pelo usuário.";s:15:"certificatecopy";s:6:"CÓPIA";s:12:"upgradeerror";s:25:"Erro durante o upgrade $a";s:11:"notreceived";s:27:"Nenhum certificado emitido.";s:25:"eventcertificate_verified";s:22:"Certificado verificado";s:37:"eventcertificate_verified_description";s:141:"O usuário com o ID {$a->userid} verifique o certificado com o ID {$a->certificateid}, emitido ao usuário com o ID {$a->certiticate_userid}.";s:9:"deleteall";s:13:"Remover todos";s:14:"deleteselected";s:20:"Remover Selecionados";}

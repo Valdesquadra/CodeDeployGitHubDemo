@@ -1,0 +1,85 @@
+a:281:{s:7:"accent1";s:17:"rgb(117, 51, 113)";s:7:"accent2";s:23:"rgba(117, 51, 113, 0.8)";s:7:"accent3";s:7:"#ffb400";s:22:"autologinguestsanypage";s:1:"0";s:10:"blockstyle";s:0:"";s:15:"blogplaceholder";s:0:"";s:9:"bookmarks";s:1:"1";s:14:"bookmarkslimit";s:2:"15";s:8:"btncolor";s:16:"rgb(0, 161, 102)";s:15:"btnprimarycolor";s:16:"rgb(0, 161, 102)";s:7:"cbanner";s:1:"1";s:8:"cbtntext";s:1:"0";s:7:"celsel1";s:0:"";s:7:"celsel2";s:0:"";s:7:"celsel3";s:0:"";s:16:"certificatelinks";s:0:"";s:14:"certificatestr";s:1:"0";s:6:"cfont1";s:0:"";s:6:"cfont2";s:0:"";s:6:"cfont3";s:0:"";s:11:"cfontfiles1";s:0:"";s:11:"cfontfiles2";s:0:"";s:11:"cfontfiles3";s:0:"";s:12:"cfontspacer1";s:0:"";s:12:"cfontspacer2";s:0:"";s:10:"cloginpage";s:1:"1";s:12:"colorspacer1";s:0:"";s:12:"colorspacer2";s:0:"";s:18:"coursecustomfields";s:1:"0";s:10:"coursedate";s:1:"2";s:10:"coursegrid";s:1:"1";s:11:"coursepanel";s:1:"1";s:18:"coursepanelspacer1";s:0:"";s:18:"coursepanelspacer2";s:0:"";s:17:"courseplaceholder";s:0:"";s:11:"courseprice";s:1:"1";s:14:"coursespacer10";s:0:"";s:13:"coursespacer3";s:0:"";s:13:"coursespacer5";s:0:"";s:13:"coursespacer6";s:0:"";s:19:"coursestudentscount";s:1:"0";s:15:"coursinstructor";s:1:"0";s:15:"cpaneldesclimit";s:2:"24";s:9:"customcss";s:1486:".block-custom-fields .course-custom-fileds li .name {
+    font-weight: 700 !important;
+}
+
+.enrollment-page .course-header .course-categories-tree li a {
+    color: #FFFFFF;
+}
+.enrollment-page .course-meta1 {
+    display: none;
+}
+div.fake-block.block-enrol{
+display: none;
+}
+.fake-block .course-date {
+display: none;
+}
+.fake-block .enrol-info {
+display: none;
+}
+#course-instructors {
+    display: none;
+}
+.enrollment-page #page-content .generalbox {
+  display: none;
+}
+.custom-login #page #page-a {
+    margin-bottom: 0;
+}
+.custom-login #page {
+    padding: 20px 0 !important;
+}
+
+li.fieldname-link_inscricao span.name {
+    display: none;
+}
+
+li.fieldname-link_inscricao span.value {
+    width: 100% !important;
+
+}
+li.fieldname-link_inscricao span.value a {
+    font-size: 20px;
+}
+.btn-inscricao {
+padding: 12px 0;
+}
+
+.enrollment-page #page-content {
+display: none;
+}
+
+.block_enrolmenttimer {
+float: left;
+}
+
+a.tool-signup {display: none !important;}
+
+.activity-navigation #prev-activity-link, .activity-navigation #next-activity-link {
+    background-color: rgba(106,46,103,.8) !important;
+    color: #FFFFFF !important;
+    padding: 10px;
+}
+
+.activity-navigation #next-activity-link:hover {
+color: #FFFFFF !important;
+}
+
+.activity-navigation #prev-activity-link, .activity-navigation #next-activity-link::before {
+    white-space: none;
+    content: "Seguinte >> ";
+}
+
+#footer {
+    position: unset !important;
+}";s:18:"customsitemnuitems";s:0:"";s:9:"editingfw";s:1:"1";s:14:"elrollsections";s:1:"1";s:7:"endblog";s:0:"";s:12:"endbookmarks";s:0:"";s:11:"endceltypo1";s:0:"";s:11:"endceltypo2";s:0:"";s:11:"endceltypo3";s:0:"";s:9:"endcfonts";s:0:"";s:9:"endcolors";s:0:"";s:9:"endcourse";s:0:"";s:13:"endcourselist";s:0:"";s:14:"endcoursepanel";s:0:"";s:17:"endcustomcssstyle";s:0:"";s:16:"endenrolmentpage";s:0:"";s:10:"endfddmenu";s:0:"";s:11:"endfgeneral";s:0:"";s:12:"endfheadings";s:0:"";s:8:"endfmenu";s:0:"";s:9:"endfooter";s:0:"";s:12:"endfrontpage";s:0:"";s:13:"endganalitycs";s:0:"";s:9:"endgfonts";s:0:"";s:14:"endheaderstyle";s:0:"";s:7:"endlang";s:0:"";s:9:"endlayout";s:0:"";s:10:"endloading";s:0:"";s:8:"endlogin";s:0:"";s:12:"endloginform";s:0:"";s:7:"endlogo";s:0:"";s:13:"endnavgeneral";s:0:"";s:10:"endnavicon";s:0:"";s:9:"endnfonts";s:0:"";s:12:"endpagestyle";s:0:"";s:10:"endregions";s:0:"";s:11:"endscrolltt";s:0:"";s:11:"endsitemenu";s:0:"";s:11:"enrollayout";s:1:"2";s:10:"excludecat";s:0:"";s:14:"expiredcourses";s:1:"0";s:7:"favicon";s:20:"/favicon squadra.ico";s:6:"ffcel1";s:1:"0";s:6:"ffcel2";s:1:"0";s:6:"ffcel3";s:1:"0";s:8:"ffddmenu";s:1:"0";s:9:"ffgeneral";s:6:"nfont1";s:10:"ffheadings";s:1:"0";s:6:"ffmenu";s:1:"0";s:16:"fheadingsspacer1";s:0:"";s:16:"fheadingsspacer2";s:0:"";s:12:"footerpacer1";s:0:"";s:11:"footerstyle";s:4:"dark";s:9:"footlogin";s:1:"0";s:8:"foottext";s:69:"Copyright (c) Squadra Consultoria 2021. Todos os direitos reservados.";s:6:"fsbase";s:2:"15";s:9:"fsddmenu2";s:0:"";s:10:"fsheading1";s:0:"";s:10:"fsheading2";s:0:"";s:10:"fsheading3";s:0:"";s:10:"fsheading4";s:0:"";s:10:"fsheading5";s:0:"";s:10:"fsheading6";s:0:"";s:6:"fsmenu";s:0:"";s:9:"fstddmenu";s:6:"normal";s:11:"fstheadings";s:6:"normal";s:7:"fstmenu";s:6:"normal";s:13:"fullscreenmod";s:1:"0";s:6:"fwcel1";s:7:"inherit";s:6:"fwcel2";s:7:"inherit";s:6:"fwcel3";s:7:"inherit";s:8:"fwddmenu";s:7:"inherit";s:9:"fwgeneral";s:3:"300";s:10:"fwheadings";s:3:"400";s:6:"fwmenu";s:7:"inherit";s:9:"ganaasync";s:1:"0";s:6:"ganaid";s:0:"";s:6:"gfont1";s:6:"Roboto";s:6:"gfont2";s:0:"";s:6:"gfont3";s:0:"";s:12:"gfontspacer1";s:0:"";s:12:"gfontspacer2";s:0:"";s:12:"gfontspacer3";s:0:"";s:11:"gfontstyle1";s:15:"300,400,500,700";s:11:"gfontstyle2";s:0:"";s:11:"gfontstyle3";s:0:"";s:11:"gfontsubset";s:0:"";s:13:"headerbgcolor";s:16:"rgb(0, 161, 102)";s:13:"headercontent";s:0:"";s:9:"headerimg";s:0:"";s:9:"headernav";s:1:"1";s:13:"headerspacer1";s:0:"";s:13:"headerspacer2";s:0:"";s:11:"headerstyle";s:6:"light2";s:15:"headertoolstext";s:1:"1";s:13:"headingscolor";s:7:"#000000";s:7:"langpos";s:1:"1";s:6:"layout";s:2:"fw";s:8:"lbgcolor";s:0:"";s:9:"linkcolor";s:17:"rgb(117, 51, 113)";s:10:"linkhcolor";s:23:"rgba(117, 51, 113, 0.8)";s:11:"loadinghide";s:4:"1000";s:11:"loadinglogo";s:0:"";s:10:"loadingscr";s:1:"0";s:13:"loginbgattach";s:5:"fixed";s:12:"loginbgcolor";s:24:"rgba(117, 51, 113, 0.81)";s:12:"loginbgimage";s:20:"/Back ground EAD.jpg";s:10:"loginbgpre";s:6:"strip1";s:15:"loginlinktopage";s:1:"1";s:9:"loginlogo";s:18:"/squadra logo .png";s:18:"loginsearchspacer1";s:0:"";s:18:"loginsearchspacer2";s:0:"";s:9:"logintext";s:1889:"[tabs margin="0 0 30px 0"]
+[tab_item title="Alunos"]Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. [/tab_item]
+[tab_item title="Teachers"]Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. [/tab_item]
+[tab_item title="Privacy Policy"]Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis.[/tab_item]
+[/tabs]
+[boxes size="small"]
+[boximg image="https://placeimg.com/800/200/nature" link="#" color="#48494c"]More info about login proccess[/boximg]
+[/boxes]";s:4:"logo";s:17:"/Logo Squadra.png";s:11:"logoalttext";s:19:"Squadra Consultoria";s:8:"logodark";s:18:"/squadra logo .png";s:5:"logoh";s:2:"60";s:11:"logospacer1";s:0:"";s:9:"logotitle";s:19:"Squadra Consultoria";s:10:"modaltools";s:1:"1";s:7:"morecat";s:1:"0";s:14:"moreinstructor";s:1:"0";s:10:"mycexpierd";s:1:"0";s:9:"mychidden";s:1:"0";s:9:"mycinmenu";s:1:"1";s:8:"myclimit";s:1:"6";s:9:"navaspeed";s:3:"300";s:8:"navatype";s:1:"2";s:12:"navbarplugin";s:1:"1";s:6:"navcls";s:0:"";s:10:"navddwidth";s:3:"200";s:8:"navicons";s:0:"";s:10:"navspacer3";s:0:"";s:10:"navspacer4";s:0:"";s:6:"nfont1";s:5:"Arial";s:6:"nfont2";s:5:"Arial";s:6:"nfont3";s:5:"Arial";s:9:"pagewidth";s:4:"1240";s:12:"partnerlogoh";s:2:"46";s:12:"partnerlogos";s:0:"";s:13:"partnerslinks";s:0:"";s:8:"pbgcolor";s:0:"";s:8:"pbgimage";s:0:"";s:14:"pbgimagescroll";s:1:"0";s:6:"pbgpre";s:0:"";s:12:"regionnogrid";s:0:"";s:11:"scrollspeed";s:3:"400";s:8:"scrolltt";s:1:"1";s:11:"searchlinks";s:200:"Seja Afiliado|https://consultoriasquadra.com.br/seja-afiliado/::1
+Cursos Presenciais|https://consultoriasquadra.com.br/cursos-presenciais::1
+Serviços|https://consultoriasquadra.com.br/servico/::1
+";s:13:"sharefacebook";s:1:"1";s:10:"shareicons";s:1:"1";s:13:"sharelinkedin";s:1:"1";s:12:"sharetwitter";s:1:"1";s:15:"shortnamecourse";s:1:"0";s:11:"showmorebtn";s:1:"1";s:11:"showsitemnu";s:1:"1";s:10:"sidebarbtn";s:1:"2";s:14:"sidebarbtntext";s:1:"1";s:10:"sidebarpos";s:5:"right";s:10:"signuplink";s:1:"1";s:10:"signuppage";s:0:"";s:12:"sitemnuitems";s:36:"dashboard,frontpage,calendar,courses";s:6:"slider";s:1:"0";s:9:"socialend";s:0:"";s:12:"socialfooter";s:1:"1";s:12:"socialheader";s:1:"1";s:11:"sociallink1";s:94:"https://www.youtube.com/channel/UC_6OmW7jwiryjyTKf__PUew?view_as=subscriber?sub_confirmation=1";s:11:"sociallink2";s:53:"https://www.linkedin.com/company/squadra-consultoria/";s:11:"sociallink3";s:46:"https://www.instagram.com/squadra_consultoria/";s:11:"sociallink4";s:43:"https://www.facebook.com/consultoriasquadra";s:11:"sociallink5";s:113:"https://api.whatsapp.com/send?phone=554730524641&text=Ol%C3%A1.%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas.";s:11:"sociallink6";s:0:"";s:11:"sociallink7";s:0:"";s:12:"sociallinknw";s:1:"1";s:13:"sociallistend";s:0:"";s:15:"socialliststart";s:0:"";s:12:"socialmargin";s:2:"31";s:11:"socialname1";s:20:"youtube-play,Youtube";s:11:"socialname2";s:17:"linkedin,Linkedin";s:11:"socialname3";s:19:"instagram,Instagram";s:11:"socialname4";s:17:"facebook,Facebook";s:11:"socialname5";s:17:"whatsapp,WhatsApp";s:11:"socialname6";s:0:"";s:11:"socialname7";s:0:"";s:13:"socialspacer1";s:0:"";s:13:"socialspacer2";s:0:"";s:13:"socialspacer3";s:0:"";s:13:"socialspacer4";s:0:"";s:13:"socialspacer5";s:0:"";s:13:"socialspacer6";s:0:"";s:12:"socialstart1";s:0:"";s:8:"socialtt";s:1:"1";s:8:"spinnerw";s:2:"50";s:9:"startblog";s:0:"";s:14:"startbookmarks";s:0:"";s:13:"startceltypo1";s:0:"";s:13:"startceltypo2";s:0:"";s:13:"startceltypo3";s:0:"";s:11:"startcfonts";s:0:"";s:11:"startcolors";s:0:"";s:11:"startcourse";s:0:"";s:15:"startcourselist";s:0:"";s:16:"startcoursepanel";s:0:"";s:19:"startcustomcssstyle";s:0:"";s:18:"startenrolmentpage";s:0:"";s:12:"startfddmenu";s:0:"";s:13:"startfgeneral";s:0:"";s:14:"startfheadings";s:0:"";s:10:"startfmenu";s:0:"";s:11:"startfooter";s:0:"";s:14:"startfrontpage";s:0:"";s:15:"startganalitycs";s:0:"";s:11:"startgfonts";s:0:"";s:16:"startheaderstyle";s:0:"";s:9:"startlang";s:0:"";s:11:"startlayout";s:0:"";s:12:"startloading";s:0:"";s:10:"startlogin";s:0:"";s:14:"startloginform";s:0:"";s:9:"startlogo";s:0:"";s:15:"startnavgeneral";s:0:"";s:12:"startnavicon";s:0:"";s:11:"startnfonts";s:0:"";s:14:"startpagestyle";s:0:"";s:12:"startregions";s:0:"";s:13:"startscrolltt";s:0:"";s:13:"startsitemenu";s:0:"";s:9:"stickynav";s:1:"1";s:20:"studentroleshortname";s:7:"student";s:12:"teacheremail";s:1:"1";s:14:"teachermessage";s:1:"0";s:20:"teacherroleshortname";s:14:"editingteacher";s:9:"textcolor";s:7:"#4c4c4c";s:15:"textcolorondark";s:25:"rgba(255, 255, 255, 0.74)";s:8:"ttddmenu";s:4:"none";s:10:"ttheadings";s:4:"none";s:6:"ttmenu";s:4:"none";s:7:"version";s:10:"2021070710";}

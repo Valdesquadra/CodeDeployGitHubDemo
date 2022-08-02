@@ -1,0 +1,11 @@
+s:1333:"<ul><li><strong>Automatic, based on tool URL</strong> - The best tool configuration is selected automatically. If the tool URL is not recognised, the tool configuration details may need to be entered manually.</li>
+<li><strong>A specific preconfigured tool</strong> - The tool configuration for the specified tool will be used when communicating with the external tool provider. If the tool URL does not appear to belong to the tool provider, a warning will be shown. It is not always necessary to enter a tool URL.</li>
+<li><strong>Custom configuration</strong> - A consumer key and shared secret may need to be entered manually. The consumer key and shared secret may be obtained from the tool provider. However, not all tools require a consumer key and shared secret, in which case the fields may be left blank.</li>
+</ul><h3>Preconfigured tool editing</h3>
+
+<p>Three icons are available after the preconfigured tool drop-down menu:</p>
+
+<ul><li><strong>Add</strong> - Create a course level tool configuration. All External tool instances in this course may use the tool configuration.</li>
+<li><strong>Edit</strong> - Select a course level tool from the drop-down menu, then click this icon. The details of the tool configuration may be edited.</li>
+<li><strong>Delete</strong> - Remove the selected course level tool.</li>
+</ul>";

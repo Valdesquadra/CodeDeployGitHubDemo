@@ -1,0 +1,2 @@
+s:298:"<p>Replaces the default message setted up for the BigBlueButton server. The message can includes keywords  (%%CONFNAME%%, %%DIALNUM%%, %%CONFNUM%%) which will be substituted automatically, and also html tags like &lt;b&gt;...&lt;/b&gt;, &lt;br /&gt;, &lt;u&gt;&lt;/u&gt; or &lt;i&gt;&lt;/i&gt;</p>
+";

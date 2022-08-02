@@ -1,0 +1,8 @@
+s:364:"<p>Each line consists separated by pipe characters (|):<br />text|optional url::"1" to open link in a new window|language code or comma-separated codes.<br />For example:</p>
+
+<pre>Skill text
+Skill text as a link open in a new window|http://example.com::1
+English skill text||en
+Spanish skill text|http://example.com|es
+English and Spanish skill text||en,es</pre>
+";
